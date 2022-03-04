@@ -4,7 +4,6 @@
     padding: 0%;
 }
 .sidebar{
-    /* position: absolute; */
     background-color: rgb(221, 221, 221);
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
@@ -30,8 +29,13 @@
 .container{
     display: flex;    
 }
+.introcont{
+    margin: 10px 88px;
+}
+.contactcont{
+    display: flex;
+}
 .info{
-    
     height: 58vh;
     width: 80vw ;
     margin: 144px auto;
@@ -50,8 +54,6 @@
 
 .hello{
     font-size: 65px;
-    
-
 }
 .name{
     font-size: 50px;
@@ -89,16 +91,15 @@
     color: rgb(0, 0, 0);
     background-color: rgb(241, 228, 203);
 } 
-.contactform{ 
+.contactform{
     padding: 0 34px;
-    padding-top: 10px ;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 88px;
 }
 
 .contactform h1{ 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding: 12px 0;
 }
 .contactform form div{
     padding: 10px 0;
@@ -124,11 +125,14 @@
 #form-check-input{
     width: 24px;
     margin: 3px 0;
-
+}
+.blogcontainer{
+    margin: 10px 88px;
 }
 .blogitem{
 margin: 20px;
 font-family: Arial, Helvetica, sans-serif;
+
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -146,7 +150,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     margin:12px;
 }
-.skill{
+/* .skill{
     width: 265px;
     height: 6px;
     background-color: red;
@@ -159,8 +163,9 @@ p{
 .skillitems{
     display: flex;
     align-items: center;
-    font-weight: 900;
-}
+    font-weight: 900; 
+    } */
+
 .hamp{
     position: absolute;
     cursor: pointer;
@@ -169,15 +174,12 @@ p{
 }
 .sidebargo{
     transform: translate(-443px, 0px);
+    transform: translate(-443px, 0px);
+    transform: translate(-443px, 0px);
     position: absolute;
 }
-.cross{
+.cross svg{
     margin-left: 5px;
     margin-top: 10px;
-}
-
-@media(max-width: 1615px){
-    .devpic{
-        display: none;
-    }
+    cursor: pointer;
 }
